@@ -1,3 +1,5 @@
+/** @format */
+
 "use strict";
 
 // pirma uzduotis...
@@ -6,7 +8,7 @@
 
 // for (let i = 0; ; i++) {
 //   skaiciukas = parseInt(
-//     prompt(`Iveskite skaicioka... isrysiu katra pirmaji neigiama... `)
+//     prompt(`Iveskite skaicioka... isrysiu katras pirmas neigiamas... `)
 //   );
 //   if (skaiciukas < 0) {
 //     console.log(skaiciukas);
@@ -73,7 +75,49 @@
 // septinta uzduotis
 
 // const sakiniuks = prompt(`Iveskite dar viena savo nuostabiausia sakinuka:... `);
+// let ilgis = 0;
 // for (const raideles of sakiniuks) {
-//   console.log(raideles);
+//   ilgis++;
 // }
 // console.log(`Sakinuko ilgis: ${sakiniuks.length}`);
+// console.log(`Funkcijos length ilgis: ${ilgis}`);
+
+//  astunta uzduotis
+
+// let sk1 = 20;
+// do {
+//   if (sk1 % 2 === 0) {
+//     console.log(sk1);
+//   }
+//   sk1++;
+// } while (sk1 <= 50);
+
+// devinta uzduotis
+
+// for (let i = 0; ; i++) {
+//   let sk2 = parseInt(
+//     prompt(`Iveskite skaicioka... isrysiu katra pirmas nelyginis... `)
+//   );
+//   if (sk2 % 2 !== 0) {
+//     alert(sk2);
+//     break;
+//   }
+// }
+
+// desimta uzduotis
+
+// let suma = 0;
+// let sk3;
+// do {
+//   sk3 = parseInt(
+//     prompt(`Ivesk teigiamus skaicius. Jei ivesi 0, gausi atsakyma`)
+//   );
+
+//   if (sk3 < 0) {
+//     alert(`Sakiau teigiamus skaicius pokstininke!!`);
+//   } else {
+//     suma += sk3;
+//   }
+// } while (sk3 !== 0);
+
+// console.log(`Skaiciu suma: ${suma}`);
